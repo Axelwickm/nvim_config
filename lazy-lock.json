@@ -25,7 +25,7 @@
   "mini.indentscope": { "branch": "main", "commit": "f60e9b51a6214c73a170ffc5445ce91560981031" },
   "mini.pairs": { "branch": "main", "commit": "dfa9f6e2576bb8853be277d96b735af59d9be7c2" },
   "mini.surround": { "branch": "main", "commit": "9d1956b576d7051da3a483b251dfc778121c60db" },
-  "neo-tree.nvim": { "branch": "v3.x", "commit": "e62babc62c7f8de579ad69d0a5d2613bff864126" },
+  "neo-tree.nvim": { "branch": "v3.x", "commit": "9b5b4c874b13e372500f07c37187ba06c0c1ac0a" },
   "neoconf.nvim": { "branch": "main", "commit": "e7f98b9a12e2a741b84e6761e925fc2196ef460f" },
   "neodev.nvim": { "branch": "main", "commit": "0d210aa340ec9840ac963938bf1b5d06cfdf67dc" },
   "noice.nvim": { "branch": "main", "commit": "894db25ec726d32047799d4d0a982b701bec453b" },
