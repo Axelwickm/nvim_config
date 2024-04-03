@@ -4,3 +4,4 @@
 
 vim.opt.clipboard = "unnamed"
 vim.opt.rnu = false
+vim.g.autoformat = true
