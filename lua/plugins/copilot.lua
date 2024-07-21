@@ -54,6 +54,8 @@ return {
     -- copilot cmp source
     {
         "nvim-cmp",
+        -- commit = "b356f2c",
+        -- pin = true,
         dependencies = {
             {
                 "zbirenbaum/copilot-cmp",
