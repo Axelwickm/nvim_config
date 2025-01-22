@@ -1,10 +1,12 @@
 return {
-  -- change some telescope options and a keymap to browse plugin files
-  {
-    "nvim-telescope/telescope.nvim",
-    keys = {
-      -- add a keymap to browse plugin files
-      -- stylua: ignore
+    "neovim/nvim-lspconfig",
+    opts = function()
+        if LazyVim.pick.want() ~= "telescope" then
+            return
+        end
+        local Keys = require("lazyvim.plugins.lsp.keymaps").get()
+    -- stylua: ignore
+    vim.list_extend(Keys, {
       {
         "<leader>ff",
         function() require("telescope.builtin").find_files() end,
@@ -31,19 +33,6 @@ return {
         end,
         desc = "Find Plugin File",
       },
-    },
-    -- change some options
-    opts = {},
-  },
-
-  {
-    "telescope.nvim",
-    dependencies = {
-      "nvim-telescope/telescope-fzf-native.nvim",
-      build = "make",
-      config = function()
-        require("telescope").load_extension("fzf")
-      end,
-    },
-  },
+    })
+    end,
 }
