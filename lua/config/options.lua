@@ -5,4 +5,4 @@
 vim.opt.clipboard = "unnamed"
 vim.opt.rnu = false
 vim.g.autoformat = true
--- vim.g.lazyvim_picker = "fzf"
+vim.g.lazyvim_picker = "fzf"
